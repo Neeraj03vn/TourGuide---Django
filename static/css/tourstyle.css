@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=LXGW+WenKai+Mono+TC&family=Pacifico&display=swap');
+
+
+
+.tours{
+    background: linear-gradient( rgba(11, 65, 7, 0.599),rgba(255, 255, 255, 0.236));
+
+}
+.tours .left-t span{
+    color: rgb(10, 183, 10);
+}
+
+.tours .left-t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-t{
+    display: flex;
+    justify-self: center;
+}
+.right-t div{
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+}
+.head-t{
+    text-shadow: 2px;
+    font-family: Ga Maamli;
+    color: rgb(0, 0, 0);
+}
+.para-t{
+    font-family: Playfair Display;
+    background-color: rgb(240, 248, 255);
+    font-weight: 800;
+    color: rgb(17, 18, 18);
+    padding: .5rem;
+}
+.right-t .img-1{
+    position: relative;
+    bottom: 40px;
+}

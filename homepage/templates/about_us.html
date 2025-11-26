@@ -1,0 +1,89 @@
+{% extends 'navigation.html' %}
+{% block newcontant %}
+{% load static %}
+
+<script rel="stylesheet" href="{% static 'js/notification.js' %}"></script>
+<link rel="stylesheet" href="static/css/about_style.css">
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navigation">
+        <nav style="background-color: #ffffff;" class="navbar nav-1 navbar-expand-lg p-4 p-1">
+            <div class="container-fluid">
+                <!-- <div class="nav-logo">
+                    <div class="icon-1">W</div>
+                    <div class="icon-2">
+                        <ion-icon name="paw" class=" text-success"></ion-icon>
+                        <a class="navbar-brand text-black" href="#"><span class="text-info">Wild</span> Tours</a>
+                    </div>
+                </div> -->
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a href="/" class="nav-link text-black" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/tour" id="scroll_t" class="nav-link text-black">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="/aboutus" class="nav-link text-black">About Us</a>
+                        </li>
+                        <li class="nav-item ">
+                        <a href="" class="nav-link text-black">Reviews</a>
+                        </li>
+                        <li class="nav-item ">
+                        <a href="" class="nav-link text-black" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="background-color: rgb(139, 135, 135); ">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+
+    <div class="aboutus">
+        <div class="row main-a">
+            <div class="col-lg-6 my-col left-a" style="background-image: url(static/images/wild.png);">
+        
+                <div class="nav-logo">
+                    <div class="icon-1">W</div>
+                    <div class="icon-2">
+                        <ion-icon name="paw" class=" text-success"></ion-icon>
+                        <a class="navbar-brand text-white" href="#"><span class="text-info">WILDGUIDE</span> TRAVELS</a>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="col-lg-6 my-col right-a">
+        
+                <span>a few words</span>
+                
+                <h1>About Us</h1>
+                
+                <p>Welcome to Wildguide, your trusted partner for unforgettable nature tours and adventures. Our experienced guides will lead you on a journey of discovery through the world's most breathtaking landscapes, from lush forests to majestic mountains and beyond. With a passion for the great outdoors and a deep understanding of the natural world, we curate personalized experiences that connect you with the beauty and wonder of nature. Whether you're a seasoned explorer or just starting your journey, Wildguide is dedicated to providing exceptional service, expert knowledge, and unforgettable memories. Join us on a wild adventure and let the natural world inspire you!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+{% endblock %}

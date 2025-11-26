@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=LXGW+WenKai+Mono+TC&family=Pacifico&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.home .navigation{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navigation .icon-1{
+    font-family: Pacifico;
+    font-size: 2.5rem;
+    color: green;
+
+}
+
+body .home{
+    background-size: cover;
+}
+.intro{
+    transition: 0.5s;
+    animation: animi-intro 2s linear;
+}
+@keyframes animi-intro{
+    0%{
+        transform:  translateY(-150px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(-70px);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.intro .left-i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.599),rgba(255, 255, 255, 0.236));
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+.intro .right-i{
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.599),rgba(255, 255, 255, 0.236));
+    
+}
+
+.left-i h1{
+    font-family: Pacifico;
+    font-size: 50px;
+    color: white;
+}
+
+.left-i p{
+    width: 490px;
+
+}
+
+
+
+
+/* .mycol{
+    border: solid black 3px;
+} */
+
+/* 
+.tours{
+    background: linear-gradient( rgba(11, 65, 7, 0.599),rgba(255, 255, 255, 0.236));
+
+}
+.tours .left-t span{
+    color: rgb(10, 183, 10);
+}
+
+.tours .left-t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-t{
+    display: flex;
+    justify-self: center;
+}
+.right-t div{
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+}
+.head-t{
+    text-shadow: 2px;
+    font-family: Ga Maamli;
+    color: rgb(0, 0, 0);
+}
+.para-t{
+    font-family: Playfair Display;
+    background-color: rgb(240, 248, 255);
+    font-weight: 800;
+    color: rgb(17, 18, 18);
+    padding: .5rem;
+}
+.right-t .img-1{
+    position: relative;
+    bottom: 40px;
+}
+
+/* **************************** */
+
+/* .aboutus{
+    background-color:white;
+}
+.aboutus .nav-logo .icon-1{
+    font-family: Pacifico;
+    font-size: 2.5rem;
+    color: green;
+
+}
+.main-a{ */
+    /* padding: 10rem; */
+/*     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus .left-a{
+    height: 648px;
+    width: 432px;
+    background-image: url(imges/wild.png);
+    background-size: contain;
+    font-size: 40px;
+}
+.left-a .nav-logo{
+    padding-top: 4rem;
+}
+
+.right-a{
+    padding: 0 3rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    
+    
+}
+.right-a span{
+    font-family: Pacifico;
+    padding: 0 3rem;
+}
+.right-a h1{
+    font-family: Playfair Display;
+    font-size: 60px;
+    color: rgb(0, 123, 255);
+}
+.right-a p{
+    font-family: LXGW WenKai Mono TC;
+    font-weight: 800;
+    padding: 1rem 3rem;
+    opacity: .9;    
+}
+/* **************************** */
+ 

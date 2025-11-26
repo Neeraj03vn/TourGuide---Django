@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=Pacifico&family=Rubik+Wet+Paint&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* #notification-container {
+    position: fixed;
+    align-items: center;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+  
+  .notification {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .notification span {
+    font-weight: bold;
+  }
+  
+  .notification button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  } */
+.navbook .navbar-brand{
+    font-family: Pacifico;
+    font-size: 2.5rem;
+    color: green;
+}
+.btn{
+    border: solid black 1px;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.book .navbar{
+    background-color: rgba(1, 72, 1, 0.536);
+}
+.bookimg1{
+    display: flex;
+}
+.circle1{
+    padding: 0;
+    background-size: cover;
+    /* border: solid rgb(0, 0, 0) 2px; */
+    height: 400px;
+    width: 500px;
+    border-top-right-radius:400px ;
+    position: relative;
+    left: -100px;
+}
+.circle2{
+    padding: 0;
+    background-size: cover;
+    /* border: solid rgb(0, 0, 0) 2px; */
+    height: 200px;
+    width: 500px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 400px;
+    /* transform: rotate(60deg); */
+    position: relative;
+    left: -70px;
+    top: 200px;
+    
+}
+
+.form .box{
+    border: solid rgb(4, 4, 4) 3px;
+    height: 900px;
+    width: 700px;
+    
+}
+/* .left-f{
+    padding-top: 3rem;
+    padding-left: 4rem;
+} */
+.form .left-f h1,p,h2{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bookbody .left-f h1{
+    font-size: 70px;
+    font-family: Dancing Script;
+}
+.bookbody .left-f h2{
+    font-family: Kanit Static;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(203, 2, 2);
+}
+.bookbody .left-f p{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.right-f .bookform1{
+    border: hidden white ;
+    border-radius: 90px;
+    background-color: rgb(197, 209, 209);
+}
+
+.form .inputs{
+    width: 600px;
+}
+.right-f .sinputs{
+    width: 200px;
+}
+.right-f .inp{
+    text-indent: 1rem;
+    left: 3rem;;
+    padding: 2px; 
+    height: 2.3rem;   
+    background-color: rgba(144, 144, 144, 0.389);
+    border: hidden rgba(128, 128, 128, 0.432) 3px;
+    border-radius: 10px;
+}
+.right-f .f1{
+    width: 600px;
+    display: flex;
+}
+.right-f h1{
+    margin-left: 9rem;
+}
+.right-f .f2{
+    width: 600px;
+    display: flex;
+}
+.right-f .bookform1{
+    padding: 1rem;
+}
+.right-f .bookform1 div{
+    padding-top: 2rem;
+}
+.right-f div{
+    width: 700px;
+}
+
+.right-f .btn{
+    position: relative;
+    left: 300px;
+}
+
+/* .mycol{
+    border: solid black 3px;
+} */
